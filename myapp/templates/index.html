@@ -1,0 +1,9 @@
+<h1>Welcome to Cowsay</h1>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <pre>
+        {{ cow }}
+    </pre>
+    <button type="submit">Submit!</button>
+</form>
