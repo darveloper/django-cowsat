@@ -1,1 +1,1 @@
-# django-cowsat
+# django-cowsay
